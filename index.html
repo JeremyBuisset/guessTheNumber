@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+</head>
+<body>
+    <div id="resultat"><p id="contResultat"></p></div>
+    <div id="header">
+        <h1>Guess the Number</h1>
+    </div>
+    <h2>Le but du jeu est de deviner un nombre choisi au hasard mais attention, vous n'avez que 10 essais !</h2>
+    <div id="block">
+
+        <div id="user">
+            <h4>Saisissez votre numéro dans ce champ : </h4>
+            <input id="choix" name="choix">
+            <h4>Essais restants</h4>
+            <div id="essai">
+
+                <div id="affi">
+
+                </div>
+            </div>
+        </div>
+
+        <div id="random">
+            <h4>Affichage du résultat</h4>
+            <div id="display">
+
+            </div>
+            <div id="jouer">
+                <button id="game">Jouer</button><span> <button id="replay">Rejouer</button></span>
+            </div>
+        </div>
+        <h4 id="deja">Vous avez déjà tenté les valeurs suivantes :</h4>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
