@@ -67,12 +67,3 @@ document.getElementById("replay").addEventListener("click",function () {
     document.getElementById("replay").style.display = "none";
     hasard();
 });
-
-
-
-
-
-
-
-
-
