@@ -27,14 +27,14 @@ document.getElementById("game").addEventListener("click",function () {
     user = document.getElementById("choix").value;
     dejaVu = document.getElementById("deja");
     if (user > random && essais > 0){
-        document.getElementById("display").innerHTML = "Votre chiffre est superieur au nombre généré";
+        document.getElementById("display").innerHTML = "C'est moins comparé à votre proposition";
         essais = essais - 1;
         console.log(essais);
         document.getElementById("affi").innerHTML = essais;
         dejaVu.innerHTML += user + ", ";
 
     } else if (user < random && essais > 0) {
-        document.getElementById("display").innerHTML = "Votre chiffre est inférieur au nombre généré";
+        document.getElementById("display").innerHTML = "C'est plus comparé à votre proposition";
         essais = essais - 1;
         console.log(essais);
         document.getElementById("affi").innerHTML = essais;
