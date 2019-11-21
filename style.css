@@ -83,12 +83,9 @@ input{
     margin-top: 2%;
 }
 
-#jouer{
-    text-align: center;
-}
-
 #replay{
     background-color: white;
+    display: none;
 }
 
 #resultat{
