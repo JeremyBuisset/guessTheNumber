@@ -42,6 +42,8 @@ document.getElementById("game").addEventListener("click",function () {
 
     } else if (user == random) {
         document.getElementById("display").innerHTML = "C'est gagné !!!";
+        document.getElementById("display").style.color = "white";
+        document.getElementById("display").style.textShadow = "2px 2px 2px black";
         document.getElementById("display").style.backgroundColor = "green";
         document.getElementById("replay").style.display = "inline-block";
     }
@@ -57,6 +59,8 @@ document.getElementById("replay").addEventListener("click",function () {
     document.getElementById("resultat").style.display = "block";
     document.getElementById("contResultat").innerHTML = "Une nouvelle partie va débuter, bonne chance !";
     setTimeout(remove,2000);
+    document.getElementById("display").style.color = "black";
+    document.getElementById("display").style.textShadow = "none";
     document.getElementById('replay').style.backgroundColor = 'white';
     essais = 10;
     document.getElementById("affi").innerHTML = essais;
