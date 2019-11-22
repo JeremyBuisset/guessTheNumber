@@ -47,7 +47,7 @@ document.getElementById("game").addEventListener("click",function () {
     }
     if (essais < 1) {
         document.getElementById("resultat").style.display = "block";
-        document.getElementById("contResultat").innerHTML = "C'est perdu !!! Vous pouvez rejouer en utilisant le bouton rejouer";
+        document.getElementById("contResultat").innerHTML = "C'est perdu !!! Le nombre caché était " +random+ ". Vous pouvez rejouer en utilisant le bouton rejouer";
         document.getElementById("replay").style.display = "inline-block";
         setTimeout(remove,2000)
     }
